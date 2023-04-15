@@ -1,0 +1,110 @@
+/*
+body{
+  background-color: brown;
+}
+
+.App{
+  background-color: lightcoral;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+#todo-form input{
+  background-color: darkolivegreen;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+#todo-form input::placeholder{
+  color: lightblue;
+}
+
+#todo-form input:focus, button:focus{
+  outline: none;
+}
+
+#todo-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 7px;
+  border: 0;
+  background-color: blue;
+  cursor: pointer;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+*/
+
+body{
+  background-color: rgb(61, 3, 116);
+}
+
+.container{
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.myForm {
+  margin: 50px 0px;
+}
+
+.myForm label{
+  font-size: 32px;
+  margin-right: 20px;
+}
+
+.myForm input{
+  font-size: 32px;
+  border-radius: 20px;
+  padding: 8px 18px;
+  background-color: antiquewhite;
+}
+
+.myForm button{
+  margin: 20px 0px 0px;
+  background-color: blue;
+  font-size: 28px;
+  color: aliceblue;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+.myForm input:focus{
+  outline: none;
+}
+
+.myForm button:focus{
+  outline: none;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile{
+  border: 2px solid wheat;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  margin: 30px;
+  overflow-wrap: break-word;
+}
+
+.profile img{
+  width: 150px;
+}
+
